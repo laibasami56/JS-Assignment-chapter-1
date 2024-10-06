@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Placement Practice</title>
+    <!-- a. Script in the Head -->
+    <script>
+        function showMessage() {
+            alert("This is an alert from the script in the head!");
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Script Placement Example</h1>
+
+    <!-- b. Script before your page's HTML (inside the body) -->
+    <script>
+        alert("This is a script before the page's content in the body.");
+    </script>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <!-- c. Script inside your page's HTML -->
+    <script>
+        document.write("<p>This is a script inside the page's HTML content.</p>");
+    </script>
+
+    <!-- d. Script after your page’s HTML (bottom of the body) -->
+    <script>
+        alert("This is a script after the page's content in the body.");
+    </script>
+
+</body>
+</html>
